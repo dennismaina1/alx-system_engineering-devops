@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo setfacl -R -m d:g:u:o:rwX ./
+find . -type d -exec chmod a+x {} \;
