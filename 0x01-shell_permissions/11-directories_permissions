@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo setfacl -R -m ugo+X ./
+sudo setfacl -R -m d:g:u:o:rwX ./
