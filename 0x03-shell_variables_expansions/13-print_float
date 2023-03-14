@@ -1,2 +1,2 @@
 #!/bin/bashi
-printf "%.2f $NUM"
+printf "%.2f\n" $NUM
